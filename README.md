@@ -1,28 +1,28 @@
-# Stock / Finance Agent
+# main-agent
 
 ## 定位
-这是一个围绕 Kent 持仓与 A 股交易决策服务的 finance agent。
+这是一个面向企业信息化与数字化建设的顾问型 agent 仓库。
 
-它的职责不是泛泛聊股票，而是：
-- 识别持仓风险
-- 捕捉高质量机会
-- 用模板输出交易含义
-- 做复盘并修正规则
+当前采用 3 个 agent 的协作架构，但只保留 1 个主入口：
 
-## 核心文件
-- `positions.md` / `positions.json`：当前持仓
-- `watchlist.md` / `watchlist.json`：观察池
-- `trading-profile.md`：用户交易偏好
-- `playbook.md`：总体工作流
-- `execution-sop.md`：执行顺序
-- `signal-scorecard.md`：信号打分
-- `daily-brief-template.md`：盘前模板
-- `intraday-alert-template.md`：盘中模板
-- `close-review-template.md`：收盘模板
-- `watchlist-governance.md`：观察池管理
-- `review-ledger.md`：复盘口径
-- `review-ledger-template.md`：台账模板
+- `biz-architect`：企业业务架构顾问（主入口）
+- `solution-architect`：企业应用方案顾问
+- `delivery-consultant`：数字化落地顾问
 
-## 当前状态
-已完成：工作流、模板、评分卡、结构化状态、复盘闭环设计。
-待补：实时数据接入、自动化调度和自动写台账。
+## 目标
+帮助用户围绕 ERP、SRM、CRM、OA、费控、资金系统等企业应用，完成：
+- 业务流程分析
+- 业务痛点识别
+- 系统方案设计
+- 项目实施路径规划
+
+## 使用建议
+默认先让 `biz-architect` 接问题；
+当问题涉及系统分工或集成时，引入 `solution-architect` 视角；
+当问题涉及实施路径、分期和风险时，引入 `delivery-consultant` 视角。
+
+详见：
+- `consulting-architecture.md`
+- `agents/biz-architect/README.md`
+- `agents/solution-architect/README.md`
+- `agents/delivery-consultant/README.md`

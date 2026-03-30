@@ -1,0 +1,9 @@
+# runtime state
+runtime/last_snapshot.json
+runtime/alert_state.json
+runtime/akshare_spot_cache.json
+.venv/
+review-ledger-live.md
+
+# local notes
+memory/*.tmp

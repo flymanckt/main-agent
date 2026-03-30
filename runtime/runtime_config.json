@@ -1,0 +1,26 @@
+{
+  "watchlistMaxAlerts": 3,
+  "positionMaxAlerts": 6,
+  "dedupMinutes": 120,
+  "priceMoveThresholdPct": 3,
+  "dropAlertPct": -5,
+  "surgeAlertPct": 5,
+  "closeReviewIncludeAllPositions": true,
+  "preferredSummaryModel": "minimax/MiniMax-M2.7",
+  "deepReviewModel": "openai-codex/gpt-5.2",
+  "enableAkshare": true,
+  "enableLlmSummary": true,
+  "quoteSourcePriority": [
+    "akshare",
+    "eastmoney"
+  ],
+  "akshareEnabledModes": [
+    "盘前",
+    "收盘"
+  ],
+  "llmEnabledModes": [
+    "盘前",
+    "收盘"
+  ],
+  "llmOnHighRiskOnly": false
+}

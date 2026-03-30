@@ -1,0 +1,29 @@
+{
+  "updatedAt": "2026-03-30T02:02:00+08:00",
+  "items": [
+    {
+      "symbol": "002969",
+      "name": "嘉美包装",
+      "theme": "事件驱动",
+      "logic": "曾出现要约收购利好，适合作为事件驱动持续跟踪样本",
+      "trigger": "放量突破前高或利好兑现后仍强势承接",
+      "invalidators": "跌破关键支撑或利好兑现后明显走弱",
+      "entryRange": "仅观察，待更细化",
+      "stop": 22.96,
+      "style": "事件驱动",
+      "priority": "A"
+    }
+  ],
+  "schema": {
+    "symbol": "股票代码",
+    "name": "名称",
+    "theme": "所属主题/板块",
+    "logic": "关注逻辑",
+    "trigger": "触发条件",
+    "invalidators": "失效条件",
+    "entryRange": "参考买点区间",
+    "stop": "止损位",
+    "style": "低吸/突破/事件驱动/趋势跟随",
+    "priority": "A/B/C"
+  }
+}
